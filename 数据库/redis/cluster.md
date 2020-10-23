@@ -1,5 +1,7 @@
 ## todo
-slot 怎么划分的
+slot怎么迁移
+怎么实现自动化的扩容，缩容
+缓存和数据库不一致
 
 
 ![Alt text](/img／cluster1.png)
@@ -22,9 +24,19 @@ redis-cil --cluster create host:port --cluster-replicas 1
 
 # slot的算法
 
-crc16
+crc16，或者自己指定
 
-槽位怎么迁移
+slot怎么迁移
+
+
+## 扩容
+
+
+## 缩容
+
+先迁移slot
+
+
 
 
 ## 命令 
@@ -33,6 +45,8 @@ cluster nodes 查看节点信息
 cluster add-node  增加节点
 
 cluster reshared  重新分配slot
+
+
 
 
 
