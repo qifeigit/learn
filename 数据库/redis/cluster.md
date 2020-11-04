@@ -4,7 +4,7 @@ slot怎么迁移
 缓存和数据库不一致
 
 
-![Alt text](/img／cluster1.png)
+![Alt text](./img/cluster1.png)
 
 
 
