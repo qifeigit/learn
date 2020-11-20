@@ -3,3 +3,5 @@
 redis与mysql数据不一致性
 
 
+
+threadlocal
