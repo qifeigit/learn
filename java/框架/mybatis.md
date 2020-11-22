@@ -12,3 +12,30 @@ orm object relational mapping
 
 
 
+## 配置
+
+环境
+
+
+
+别名 
+
+```xml
+<typeAliases>
+    <package name="org.sang.bean"/>
+</typeAliases>
+```
+
+```java
+@alias("user")
+public class User{
+
+}
+```
+
+
+
+
+
+
+
