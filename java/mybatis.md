@@ -6,7 +6,7 @@
 
 ## 执行流程
 
-创建sqlsesstion‘factory
+创建sqlsesstionfactory
 
 再创建sqlsesstion
 
