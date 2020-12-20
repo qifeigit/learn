@@ -26,3 +26,12 @@ like 查询 可以用 %
 
 ## 分页
 
+Limit 
+
+
+
+## 动态参数和结果
+
+paramsTYpe= map
+
+resultMap
