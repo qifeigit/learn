@@ -35,3 +35,14 @@ Limit
 paramsTYpe= map
 
 resultMap
+=======
+
+
+
+
+
+
+## mabatis generator
+
+代码自动生成
+
