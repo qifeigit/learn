@@ -1,5 +1,6 @@
-```dockerfile
 在目录下创建一个新文件:docker-compose-kafka-single-broker.yml，配置内容如下：
+
+```dockerfile
 version: '3'
 services:
   zookeeper:

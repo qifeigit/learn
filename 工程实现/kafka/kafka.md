@@ -1,3 +1,25 @@
+### CORE CAPABILITIES
+
+- #### HIGH THROUGHPUT
+
+  Deliver messages at network limited throughput using a cluster of machines with latencies as low as 2ms.
+
+- #### SCALABLE
+
+  Scale production clusters up to a thousand brokers, trillions of messages per day, petabytes of data, hundreds of thousands of partitions. Elastically expand and contract storage and processing.
+
+  #### PERMANENT STORAGE
+
+  Store streams of data safely in a distributed, durable, fault-tolerant cluster.
+
+- #### HIGH AVAILABILITY
+
+  Stretch clusters efficiently over availability zones or connect separate clusters across geographic regions.
+
+
+
+
+
 ## 组成
 
 - Broker：消息中间件处理结点，一个Kafka节点就是一个broker，多个broker可以组成一个Kafka集群。
@@ -20,6 +42,12 @@
 
 
 我们设置 replica.lag.max.messages 为4，只要 follower 只要不落后leader 大于3条消息，就然后是跟得上leader的节点，就不会被踢出去， 设置 replica.lag.time.max.ms 为 500ms， 意味着只要 follower 在每 500ms内发送fetch请求，就不会被认为已经dead ，不会从ISR集合中踢出去。
+
+
+
+
+
+
 
 
 
@@ -51,11 +79,11 @@
 
 
 
-todoqifei
+
 
 ## 只写一次
 
-
+at least once + 幂等性 = exactly once
 
 
 
