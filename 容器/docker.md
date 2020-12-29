@@ -22,7 +22,9 @@ ps
 
 
 
-exc -it 进入容器内部
+exc -it   352da51d06c1 /bin/bash 
+
+使用 /bin/bash 进入352da51d06c1容器内部
 
 
 
