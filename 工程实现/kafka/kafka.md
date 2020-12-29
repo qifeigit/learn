@@ -81,9 +81,27 @@
 
 
 
+at least once
+
+将producer的ack级别设置为-1
+
+
+
+at most once
+
+将producer的ack级别设置为0
+
+
+
 ## 只写一次
 
 at least once + 幂等性 = exactly once
+
+id是根据producer的id和消息的唯一键去做区分
+
+producer重启的话，会生成新的pid
+
+
 
 
 

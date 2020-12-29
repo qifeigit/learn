@@ -1,16 +1,25 @@
 ## 生命周期
 ### 创建
-分为 singleton 和 prototyoe
+分为 singleton 和 prototype
+
+singleton会在工厂初始化的时候就被创建
+
+prototype则会在获取bean对象的时候创建
+
+
 
 ### 初始化
 构造方法
 
 注入
 
+检查 aware相关接口
+
 postProcessBeforeInitialization
 
 initializingBean
-或者自定义的方法 init-method
+
+自定义的方法 init-method
 
 postProcessAfterInitialization
 
