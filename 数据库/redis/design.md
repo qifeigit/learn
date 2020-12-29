@@ -8,6 +8,3 @@ redis的hash表会缩容和扩容，会有一个新的空的hash表
 
 
 
-## string
-
-设计时会有char的长度，防止超出长度
