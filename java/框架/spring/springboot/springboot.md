@@ -13,7 +13,7 @@
    
 2. enableconfiguration 开启自动配置 
       1. @autoconfigrationpackage,spring的底层注解@import(),给容器中导入组件
-      2. 将主配置类所属的包，所在包的所有组件导入到容器中
+      2. 将主配置类所属的包，所在包的所有组件导入到容器中 类似于 <component-scan>
 
 
 

@@ -17,3 +17,13 @@
 
 
 
+
+
+
+
+HashMap put的过程
+
+https://www.cnblogs.com/captainad/p/10905184.html
+
+![img](https://img2018.cnblogs.com/blog/1684605/201905/1684605-20190522150831073-641494049.png)
+
