@@ -4,15 +4,9 @@
 
 
 
-kafka的内部数据结构
-
-kafka 原理
 
 
-
-
-
-
+https://www.jianshu.com/p/f5ff017db62a
 
 
 
