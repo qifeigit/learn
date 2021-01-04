@@ -2,15 +2,13 @@
 
 数据库与缓存一致性
 
-
+https://juejin.cn/post/6850418121754050567#heading-2
 
 
 
 https://www.jianshu.com/p/f5ff017db62a
 
 
-
-https://blog.csdn.net/CoreyXuu/article/details/89019869
 
 
 
