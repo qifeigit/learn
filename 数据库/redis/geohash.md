@@ -14,7 +14,7 @@ GEOADD原理：
 
 Geohash算法就是将经纬度编码，将二维变一维，给地址位置分区的一种算法。
 
-[GEOHASH算法原理](https://www.jianshu.com/p/2fd0cf12e5ba)
+[GEOHASH算法原理和实现](https://www.jianshu.com/p/2fd0cf12e5ba)
 
 
 
