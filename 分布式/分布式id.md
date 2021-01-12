@@ -16,6 +16,10 @@
 
 ![雪花算法](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/雪花算法.png)
 
+https://github.com/qifeigit/shortCode/blob/master/design/src/main/java/org/qifei/SnowFlake.java
+
+
+
 
 
 ### zookeeper生成
