@@ -1,5 +1,5 @@
 ## 搜索引擎
-java 编写，底层为lenuce
+java 编写，底层为lucene
 
 
 ## 安装
