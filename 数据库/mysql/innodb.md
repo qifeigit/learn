@@ -47,3 +47,4 @@ InnoDB行锁是通过给索引上的索引项加锁来实现的。InnoDB这种�
 **set autocommit=0,**
 
 当前session禁用自动提交事物，自此句执行以后，每个SQL语句或者语句块所在的事务都需要显示"commit"才能提交事务。
+
