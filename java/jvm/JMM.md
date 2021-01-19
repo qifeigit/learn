@@ -19,5 +19,7 @@ sychornized
 
 线程结束前
 
+A->B,B->C ,则A->C
+
 
 
