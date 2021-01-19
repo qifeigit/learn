@@ -16,3 +16,28 @@
 
 
 
+@ImportResource
+
+引入xml 文件配置
+
+```java
+@ImportResource("classpath:beans.xml")
+public class MyConfig {}
+```
+
+```xml
+======================beans.xml=========================
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+
+    <bean id="haha" class="com.atguigu.boot.bean.User">
+    </bean>
+</beans>
+```
+
+
+
+
+
+[尚硅谷 spring boot](https://www.yuque.com/atguigu/springboot/qb7hy2#omZtW)
+
