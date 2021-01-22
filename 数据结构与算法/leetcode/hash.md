@@ -1,3 +1,17 @@
+
+
+#### [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/)
+
+#### [350. 两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/)
+
+思路：
+
+用hash表记录第一个数组 出现的数字及其对应的次数 ，然后遍历第二个数组，如果有该数字则将其插入到结果列表中，并将对应的次数减一
+
+
+
+
+
 #### [242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/)
 
 
