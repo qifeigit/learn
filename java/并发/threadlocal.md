@@ -35,3 +35,7 @@ todoqifei
 
 
 [ThreadLocal原理分析与使用场景](https://www.cnblogs.com/luxiaoxun/p/8744826.html)
+
+
+
+# [ThreadLocal类分析](https://www.cnblogs.com/cz123/p/7469245.html)
