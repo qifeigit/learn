@@ -6,10 +6,13 @@
 
 treemap可以实现 一致性hash？
 
+可以
 
+以TreeMap为例，TreeMap本身提供了一个tailMap(K fromKey)方法，支持从红黑树中查找比fromKey大的值的集合，但并不需要遍历整个数据结构。
 
 
 
 reference:
 
 [对一致性Hash算法，Java代码实现的深入研究](https://www.cnblogs.com/xrq730/p/5186728.html)
+

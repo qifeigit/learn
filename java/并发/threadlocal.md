@@ -10,23 +10,17 @@
 
 
 
+图解
+
+![img](./img/946965-20170903105933093-1910605820.png)
 
 
 
 
 
 
-todoqifei
 
-弱引用是从哪里到哪里？
-
-内存泄漏的原因到底是什么？
-
-
-
-# 实际
-
-
+# 实际问题
 
 
 
@@ -35,3 +29,7 @@ todoqifei
 
 
 [ThreadLocal原理分析与使用场景](https://www.cnblogs.com/luxiaoxun/p/8744826.html)
+
+
+
+# [ThreadLocal类分析](https://www.cnblogs.com/cz123/p/7469245.html)
