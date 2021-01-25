@@ -1,6 +1,6 @@
 # springMVC
 
-流程说明（重要）：**
+流程说明（重要）：
 
 1. 客户端（浏览器）发送请求，直接请求到 `DispatcherServlet`。
 2. `DispatcherServlet` 根据请求信息调用 `HandlerMapping`，解析请求对应的 `Handler`。

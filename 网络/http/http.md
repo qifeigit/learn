@@ -1,6 +1,7 @@
 ### http code
 
 - `200 OK` 客户端请求成功
+- 206 这种响应是在客户端表明自己只需要目标URL上的部分资源的时候返回的
 - `301 Moved Permanently` 请求永久重定向
 - `302 Moved Temporarily` 请求临时重定向
 - `304 Not Modified` 文件未修改，可以直接使用缓存的文件。
