@@ -2,8 +2,6 @@
 
 
 
-
-
 http://www.itsoku.com/type/2
 
 
