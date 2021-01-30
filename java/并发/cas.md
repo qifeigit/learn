@@ -28,6 +28,4 @@
 
 问题：
 
-todoqifei
-
 Atomic开头的类经常会有一个方法叫lazySet，讲讲它的作用
