@@ -10,3 +10,10 @@
 
 5. 将结果返回给客户端（jsp/html页面、json/xml字符串）
 
+
+
+
+[idea配置tomcat](https://blog.csdn.net/u012149181/article/details/80698208)
+
+
+
