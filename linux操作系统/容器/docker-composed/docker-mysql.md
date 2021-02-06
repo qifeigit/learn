@@ -15,3 +15,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY '123456';
 CREATE USER 'liaozesong'@'%' IDENTIFIED WITH mysql_native_password BY 'Lzslov123!';
 GRANT ALL PRIVILEGES ON *.* TO 'liaozesong'@'%';
 ```
+
+​	
+
+[Simple Persistent MySQL in Linux Server with Docker and Docker Compose](https://blog.usejournal.com/simple-persistent-mysql-in-linux-server-with-docker-and-docker-compose-66547e89a19e)
