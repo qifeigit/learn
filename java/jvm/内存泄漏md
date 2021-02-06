@@ -2,3 +2,8 @@ Java 也存在内存泄露问题，其原因主要是一些对象虽然不再被
 
 
 
+
+
+[How can I create a memory leak in Java?](https://stackoverflow.com/questions/6470651/how-can-i-create-a-memory-leak-in-java)
+
+todoqifei

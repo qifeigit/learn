@@ -74,9 +74,10 @@ public static void main(String[] args){
 > 操作线程Thread[干扰线程,5,main],【decrement】 ,值 = 1
 > 操作线程Thread[主操作线程,5,main],初始值 a = 1
 > 操作线程Thread[主操作线程,5,main],CAS操作结果: true
-复制代码
+
 ```
 
 ref
 
 https://juejin.cn/post/6844903558253379597
+

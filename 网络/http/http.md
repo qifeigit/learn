@@ -9,5 +9,17 @@
 - `401 Unauthorized` 请求未经授权。这个状态代码必须和WWW-Authenticate报头域一起使用
 - `403 Forbidden` 服务器收到请求，但是拒绝提供服务。服务器通常会在响应正文中给出不提供服务的原因
 - `404 Not Found` 请求的资源不存在，例如，输入了错误的URL
+- 499  客户端主动断掉连接之后，Nginx 会等待后端服务器处理完(或者*超时*)
 - `500 Internal Server Error` 服务器发生不可预期的错误，导致无法完成客户端的请求。
 - `503 Service Unavailable` 服务器当前不能够处理客户端的请求，在一段时间之后，服务器可能会恢复正常。
+
+
+
+
+
+
+
+
+
+[HTTP的前世今生](https://coolshell.cn/articles/19840.html)
+

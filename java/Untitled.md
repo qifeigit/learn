@@ -1,0 +1,1 @@
+Processors that can sustain execution rates faster than 1 instruction per cycle are known assuperscalar processors

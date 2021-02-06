@@ -1,3 +1,7 @@
+# CAS
+
+Central Authentication Service
+
 ## 认证原理
 
 1.用户访问业务系统。(比如：[http://localhost:8080](http://localhost:8080/))
@@ -23,3 +27,14 @@
 11.cas生成一个serviceTicket，这个serviceTicket与当前登录用户关联，并且是唯一的，cas使用第4步传递来的service参数和serviceTicket生成一个url：类似http://localhost:8080?ticket=servietTicket，然后告知用户浏览器使用302跳转到这个url。
 
 12.业务系统接收到http://localhost:8080?ticket=servietTicket，获得url上的ticket参数，然后直接通过http请求，将ticket参数传递给cas服务器，cas服务器会返回ticket对应的账号。业务系统会信任cas服务器返回的账号，并将这个账号设置为已登陆的用户。（一般是保存在session里）
+
+
+
+## 登出
+
+整个登出流程如下：
+
+1)、客户端向应用A发送登出Logout请求。
+2)、应用A取消本地会话，同时通知认证中心，用户已登出。
+3)、应用A返回客户端登出请求。
+4)、认证中心通知所有用户登录访问的应用，用户已登出。
