@@ -21,11 +21,16 @@ GRANT ALL PRIVILEGES ON *.* TO 'liaozesong'@'%';
 [Simple Persistent MySQL in Linux Server with Docker and Docker Compose](https://blog.usejournal.com/simple-persistent-mysql-in-linux-server-with-docker-and-docker-compose-66547e89a19e)
 =======
 
-
 遇到的实际问题：
 jdbc无法连接mysql，原因是因为编辑了idea的文件，修改了密码。但运行时候依然走得旧的文件内容，导致出现了问题
 
 
+
+show create table sys_resources \G;
+
+alter database dblog character set utf8;
+
+alter database dblog collate utf8_general_ci;
 
 主机访问容器无法访问,但好像有问题
 
@@ -38,3 +43,4 @@ sudo docker run --name=mysql -it -p 3306:3306 -v /opt/data/mysql/mysqld:/var/run
 ref
 
 https://blog.csdn.net/zzddada/article/details/94742832
+
