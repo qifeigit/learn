@@ -1,4 +1,4 @@
-**三、Tomcat原理总结**
+**Tomcat原理总结**
 
 1. Tomcat需要main方法启动。
 
