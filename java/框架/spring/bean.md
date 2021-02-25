@@ -8,20 +8,39 @@ prototype则会在获取bean对象的时候创建
 
 
 
-### 初始化
-构造方法
+元信息配置解析阶段
 
-注入
+bean 注册阶段
+
+bean实例化阶段：调用构造方法创建对象
+
+依赖注入
+
+bean属性赋值阶段
 
 检查 aware相关接口
 
 postProcessBeforeInitialization
+
+@postConstruct
 
 initializingBean
 
 自定义的方法 init-method
 
 postProcessAfterInitialization
+
+
+
+使用bean
+
+
+
+@preDestroy
+
+disposableBean
+
+
 
 1.顺序 
 

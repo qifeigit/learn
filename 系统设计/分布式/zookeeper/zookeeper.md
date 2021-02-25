@@ -37,6 +37,24 @@ ZAB协议定义了选举（election）、发现（discovery）、同步（sync�
 
 
 
+**zxid**
+
+• znode节点的状态信息中包含zxid, 那么什么是zxid呢?
+
+• ZooKeeper状态的每一次改变, 都对应着一个递增的Transaction id, 该id称为zxid. 由于zxid的递增性质, 如果zxid1小于zxid2, 那么zxid1肯定先于zxid2发生.
+
+创建任意节点, 或者更新任意节点的数据, 或者删除任意节点, 都会导致Zookeeper状态发生改变, 从而导致zxid的值增加.
+
+
+
+
+
+### **领导选举算法**
+
+ 基于UDP和认证的FastLeaderElection
+
+https://dbaplus.cn/news-141-1875-1.html
+
 
 
 
