@@ -22,9 +22,9 @@ bean属性赋值阶段
 
 postProcessBeforeInitialization
 
-@postConstruct
+调用@postConstruct标注的接口
 
-initializingBean
+调用initializingBean接口
 
 自定义的方法 init-method
 
