@@ -73,3 +73,12 @@ wait-for graph要求数据库保存两种信息
 自适应哈希索引(adaptive hash index)
 
 预读(read ahead)
+
+
+
+
+
+todoqifei
+
+假如将数据插入到 innodb_buffer_pool_instances 后，怎么确保内存的数据完整的存入磁盘
+
