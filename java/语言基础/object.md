@@ -5,3 +5,6 @@ tostring()
 finalized()
 
 clone()
+
+wait()
+
