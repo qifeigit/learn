@@ -107,7 +107,18 @@ set t "222"
 
 Redis主节点的配置信息中，它所负责的哈希槽是通过一张bitmap的形式来保存的，在传输过程中，会对bitmap进行压缩，但是如果bitmap的填充率slots / N很高的话(N表示节点数)，bitmap的压缩率就很低。 如果节点数很少，而哈希槽数量很多的话，bitmap的压缩率就很低。
 
+
+
+redis 为什么要发送心跳包呢
+
+为了和其他节点保持同步
+
+
+
+
+
 ### 为什么RedisCluster不使用一致性hash算法?
 
 
 
+https://whetherlove.github.io/2018/10/07/Redis%E9%9B%86%E7%BE%A4-Cluster%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/

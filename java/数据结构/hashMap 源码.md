@@ -20,6 +20,10 @@ static final int tableSizeFor(int cap) {
 
 
 
+怎么获取一个元素应有的数组下标：
+
+todoqifei
+
 
 
 reference :
