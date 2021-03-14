@@ -1,54 +1,40 @@
-```xml
-<plugins>
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-surefire-plugin</artifactId>
-        <version>${maven.surefire.version}</version>
-    </plugin>
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-jar-plugin</artifactId>
-        <version>${maven.jar.version}</version>
-    </plugin>
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-gpg-plugin</artifactId>
-        <version>${maven.gpg.version}</version>
-    </plugin>
-</plugins>
-```
-
-```xml
-<distributionManagement>
-    <snapshotRepository>
-        <id>oss</id>
-        <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-    </snapshotRepository>
-    <repository>
-        <id>oss</id>
-        <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-    </repository>
-</distributionManagement>
-```
+[Mac安装和配置Maven](https://www.cnblogs.com/lilyo/p/12887859.html)
 
 
 
-```xml
-<dependency>
-    <groupId>javax.servlet</groupId>
-    <artifactId>servlet-api</artifactId>
-    <scope>provided</scope>
-</dependency>
-```
+## 路径依赖
 
-```xml
-<dependency>
-    <groupId>rose.perfcounter</groupId>
-    <artifactId>perfcounter</artifactId>
-    <scope>runtime</scope>
-</dependency>
-```
 
-```java
-@SuppressWarnings("unused")
-```
+
+http://www.itsoku.com/article/237#menu_22
+
+
+
+
+
+
+
+### plugin
+
+
+
+maven-dependency-plugin的功能：
+
+1. 它会强制要求你在pom中直接声明程序中所用到的包，否则编译失败，这就避免了传递依赖；
+2. 它会强制要求你的pom中不能声明任何多余的依赖，否则便以失败，这就避免了引入多余的无用的依赖
+
+
+
+## maven-enforce-plugin
+
+
+通过maven-enforcer-plugin可以强制要求项目遵守某些规范，例如JDK版本、Maven版本、某个插件版本、操作系统、某个文件的存在等。我们使用它限制某些某些包不能出现在依赖中。
+
+
+
+### 路径分析
+
+
+
+mvn dependency:tree
+
