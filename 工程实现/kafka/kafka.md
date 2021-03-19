@@ -103,9 +103,18 @@ producer重启的话，会生成新的pid
 
 
 
+todoqifei
+
+
+
 
 
 ## 能被多个消费者读么
 
 可以
 
+
+
+
+
+https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/
