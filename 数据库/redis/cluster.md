@@ -117,8 +117,37 @@ redis 为什么要发送心跳包呢
 
 
 
+```
+当某个主节点挂掉或网络无法连接，集群通过投票判定主节点故障(Fail)后，会选择它的一个从节点进行顶替。
+ 集群用cluster replicate [node-id]命令(集群中不支持slaveof命令)，使当前节点成为node-id指定主节点的从库，
+ 然后立即开始从主节点复制。
+```
+
+主节点已经挂了，那怎么还从主节点复制呢
+
+
+
+
+
+槽位分配的流程是怎么样的？
+
+todoqifei
+
+
+
 ### 为什么RedisCluster不使用一致性hash算法?
 
 
 
 https://whetherlove.github.io/2018/10/07/Redis%E9%9B%86%E7%BE%A4-Cluster%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/
+
+
+
+
+
+
+
+
+
+
+
