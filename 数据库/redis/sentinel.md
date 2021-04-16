@@ -26,3 +26,30 @@ This is the full list of Sentinel capabilities at a macroscopical level (i.e. th
 
 
 [Redis Sentinel Documentation](https://redis.io/topics/sentinel)
+
+
+
+
+
+
+
+sentinel 会挑选一个从服务器变成主服务器，那么挑选规则是什么
+
+好像这个问题并不是很重要
+
+
+
+
+
+选举领头的sentinel
+
+干嘛不直接选出leader呢，非得等到要发命令的时候再选呢
+
+也许是因为leader的状态无法完全保持住，有可能会重新选举leader
+
+
+
+
+
+
+

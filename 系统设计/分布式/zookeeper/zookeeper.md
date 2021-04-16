@@ -12,9 +12,7 @@ https://zhuanlan.zhihu.com/p/44207241
 
 zookeeper实现的是最终一致性?
 
-todoqifei
-
-
+是的
 
 
 

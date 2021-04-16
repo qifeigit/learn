@@ -38,7 +38,5 @@
 
 - ##### util: 内存使用率 `util = (total - free - buff - cache) / total * 100%`
 
-  todoqifei 为什么不直接用used/total?
-
-> ##### 采集方法 内存的计数器在/proc/meminfo,里面有一些关键项 含义就不解释了,主要介绍一下内存使用率的计算算法: `util = (total - free - buff - cache) / total * 100%`
+  采集方法 内存的计数器在/proc/meminfo,里面有一些关键项 含义就不解释了,主要介绍一下内存使用率的计算算法: `util = (total - free - buff - cache) / total * 100%`
 
