@@ -21,7 +21,9 @@ redis-cil --cluster create host:port --cluster-replicas 1
 
 # slot的算法
 
-crc16，或者自己指定
+crc16，或者自己指定，
+
+为什么要用crc校验呢
 
 slot怎么迁移
 
@@ -136,6 +138,48 @@ todoqifei
 
 
 ### 为什么RedisCluster不使用一致性hash算法?
+
+其实槽位类似于有虚拟节点的一致性hash
+
+
+
+为什么不自动分配槽位呢？
+
+
+
+
+
+Because moving hash slots from a node to another does not require to stop operations, adding and removing nodes, or changing the percentage of hash slots hold by nodes, does not require any downtime.?
+
+why
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.cnblogs.com/kismetv/p/9853040.html 读后感
+
+其中返回值第一项表示节点id，由40个16进制字符串组成，节点id与 [主从复制](https://www.cnblogs.com/kismetv/p/9236731.html) 一文中提到的runId不同：Redis每次启动runId都会重新创建，但是节点id只在集群初始化时创建一次，然后保存到集群配置文件中，以后节点重新启动时会直接在集群配置文件中读取。
+
+集群配置存储在哪里？
+
+
+
+（2）数据量和访问量：估算应用需要的数据量和总访问量(考虑业务发展，留有冗余)，结合每个主节点的容量和能承受的访问量(可以通过benchmark得到较准确估计)，计算需要的主节点数量。
+
+怎么计算？
+
+
+
+
 
 
 
