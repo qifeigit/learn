@@ -22,8 +22,6 @@ jit：just in time
 
 
 
-todoqifei
-
 
 
 [基本功 | Java即时编译器原理解析及实践](https://tech.meituan.com/2020/10/22/java-jit-practice-in-meituan.html)

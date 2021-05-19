@@ -16,7 +16,7 @@ treemap可以实现 一致性hash？
 
 为什么redis 的集群没有用一致性hash呢？
 
-todoqifei
+
 
 
 

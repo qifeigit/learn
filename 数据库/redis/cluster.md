@@ -1,4 +1,4 @@
-## todo
+## 
 slot怎么迁移
 怎么实现自动化的扩容，缩容
 ![Alt text](./img/cluster1.png)
