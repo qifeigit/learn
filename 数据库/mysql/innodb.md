@@ -70,7 +70,7 @@ wait-for graph要求数据库保存两种信息
 
 没有主键怎么办，会自己生成主键为什么还要自定义主键，自动生成的主键有什么问题
 
-todoqifei
+如果定义了主键，那么InnoDB会选择主键作为聚集索引、如果没有显式定义主键，则innodb 会选择第一个不包含有NULL值的唯一索引作为主键索引、如果也没有这样的唯一索引，则innodb 会选择内置6字节长的ROWID作为隐含的聚集索引。
 
 ### 特点
 
@@ -86,7 +86,7 @@ todoqifei
 
 
 
-todoqifei
+
 
 假如将数据插入到 innodb_buffer_pool_instances 后，怎么确保内存的数据完整的存入磁盘
 
