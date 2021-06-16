@@ -1,4 +1,8 @@
-**Tomcat原理总结**
+Tomcat 就是一个“HTTP 服务器 + Servlet 容器”，我们也叫它们Web 容器。
+
+
+
+Tomcat原理总结**
 
 1. Tomcat需要main方法启动。
 
