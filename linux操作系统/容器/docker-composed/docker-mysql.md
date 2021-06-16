@@ -34,9 +34,11 @@ jdbc无法连接mysql，原因是因为编辑了idea的文件，修改了密码�
 sudo docker run --name=mysql -it -p 3306:3306 -v /opt/data/mysql/mysqld:/var/run/mysqld -v /opt/data/mysql/db:/var/lib/mysql -v /opt/data/mysql/conf:/etc/mysql/conf.d -v /opt/data/mysql/files:/var/lib/mysql-files -e MYSQL_ROOT_PASSWORD=root --privileged=true -d mysql
 ```
 
-
-
+    
 ref
 
 https://blog.csdn.net/zzddada/article/details/94742832
 
+    
+                "gates":[
+    

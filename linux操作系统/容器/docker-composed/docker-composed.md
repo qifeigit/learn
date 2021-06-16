@@ -38,3 +38,11 @@ docker-compose 学习
 
 [yaml 编辑器](https://codebeautify.org/yaml-validator)
 
+
+
+怎么阻止docker-compose开机启动？
+
+设置  restart: "no"
+
+
+
