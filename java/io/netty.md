@@ -39,4 +39,14 @@ https://www.bilibili.com/video/BV1py4y1E7oA?p=138
 select 空轮询是怎么产生的？
 
 jdk在linux下产生的
+=======
+
+
+## 参数
+
+ulimit 系统参数，端口限制
+
+no_delay 针对negla算法
+
+allocate bytebuf的分配器:可用直接内存或者堆内存
 

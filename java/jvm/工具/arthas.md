@@ -36,12 +36,6 @@ jad *Main
 
 反编译代码，查看真实的代码
 
-
-
-
-
-
-
 ​                                                          
 
 trace  com.xxx.poxy getZone '#cost>700 && params[0].equals("intl_pointsmall_tasks")'
@@ -50,11 +44,17 @@ trace  com.xxx.poxy getZone '#cost>700 && params[0].equals("intl_pointsmall_task
 
 
 
-
-
 watch  com.xxx.poxy getZon "{params,returnObj}" -x 2
 
 
+
+查看类的信息和静态变量的信息
+
+sc -d -f com.xxx
+
+
+
+ongl 表达式 执行 静态方法
 
 
 
