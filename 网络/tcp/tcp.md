@@ -39,7 +39,7 @@ HTTP 协议作为应用层协议，它需要底层的传输层协议为其提供
 4. 客户端接收到 `FIN` 消息后，会进入 `TIME_WAIT` 状态并向服务端发送 `ACK` 消息，服务端收到后会进入 `CLOSED` 状态；
 5. 客户端等待**两个最大数据段生命周期**（Maximum segment lifetime，MSL）[2](https://draveness.me/whys-the-design-tcp-time-wait/#fn:2)的时间后也会进入 `CLOSED` 状态；
 
-![tcp-closing-connection](/home/mi/learn/learn/网络/img/2020-03-10-15838517142219-tcp-closing-connection.png)
+![tcp-closing-connection](../img/2020-03-10-15838517142219-tcp-closing-connection.png)
 
 - 为了理解 TIME_WAIT 状态的必要性，我们先来假设没有这么一种状态会导致的问题。暂以 A、B 来代指 TCP 连接的两端，A 为主动关闭的一端。
 
